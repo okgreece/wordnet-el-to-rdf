@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wordnet-el"
+version = "1.0.0"
+description = "Modern streaming conversion of Greek WordNet XML to RDF"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-4.0" }
+dependencies = ["rdflib>=7.0,<8"]
+
+[project.scripts]
+wordnet-el = "wordnet_el.converter:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wordnet_el"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
