@@ -25,5 +25,4 @@ def test_conversion(tmp_path: Path) -> None:
     assert stats.relations == 1
     assert (subject, WN.gloss, Literal("ένας ορισμός", lang="el")) in graph
     assert (URIRef(WNEL["dataset"]), DCTERMS.license,
-            URIRef("https://creativecommons.org/licenses/by/4.0/")) in graph
-
+            URIRef("https://creativecommons.org/licenses/by-sa/4.0/")) in graph

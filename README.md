@@ -41,7 +41,7 @@ python -c "from rdflib import Graph; g=Graph().parse('wordnet-el.ttl'); print(le
 - Definitions and Greek labels carry the `el` language tag.
 - Inter-lingual relations use the WordNet 2.0 RDF vocabulary.
 - Unknown relation types are retained as `wnel-onto:related`.
-- The graph contains a machine-readable CC BY 4.0 license statement.
+- The graph contains a machine-readable CC BY-SA 4.0 license statement.
 
 ## Provenance and changes
 
@@ -53,7 +53,7 @@ modernized. The result is not byte-for-byte compatible with the historical N3.
 ## License and attribution
 
 The project, source data, and generated RDF are available under the
-[Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+[Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 When redistributing or adapting the material, credit **Greek WordNet
 contributors**, identify this project as the source, link to the license, and

@@ -75,7 +75,7 @@ def convert(source: Path, destination: Path) -> Statistics:
     graph.add((dataset, RDF.type, ONTO.WordNetDataset))
     graph.add((dataset, DCTERMS.title, Literal("Greek WordNet", lang="en")))
     graph.add((dataset, DCTERMS.language, Literal("el")))
-    graph.add((dataset, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by/4.0/")))
+    graph.add((dataset, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by-sa/4.0/")))
 
     stats = Statistics()
     for _, synset in iterparse(source, events=("end",)):
