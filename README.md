@@ -45,19 +45,41 @@ python -c "from rdflib import Graph; g=Graph().parse('wordnet-el.ttl'); print(le
 
 ## Provenance and changes
 
-This project modernizes the Greek WordNet conversion package dated
-2013. The original XML is retained unchanged as inherited from thw Balkanet project. The file was developed by a team of linguists in the DataBase Sysemts Laboratory (DBLab), University of Patras with the attendance of University of Athens. The converter was originally written in C++, to be replaced by a
-Python implementation; identifiers, escaping, error handling, metadata, and serialization were
-modernized. The result is not byte-for-byte compatible with the historical N3.
+This project modernizes a Greek WordNet conversion package dated 2013. The
+original XML is retained unchanged. The Greek WordNet was funded by the then
+General Secretariat for Research and Technology (GSRT), with the Database
+Laboratory of the University of Patras as the main contractor. The resource
+was later made available to the CLARIN network as part of the collection of
+Greek lexicographical and linguistic resources.
+
+The converter was originally written in C++ and has been replaced by a Python
+implementation. Identifiers, escaping, error handling, metadata, and
+serialization were modernized. The result is not byte-for-byte compatible with
+the historical N3.
 
 ## License and attribution
 
 The project, source data, and generated RDF are available under the
-[Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).
+[Creative Commons Attribution-ShareAlike 4.0 International
+license](https://creativecommons.org/licenses/by-sa/4.0/).
 
-When redistributing or adapting the material, credit **Greek WordNet
-contributors**, identify this project as the source, link to the license, and
-indicate whether changes were made. Replace or supplement that placeholder with
-the precise creator and project URL before public release if known.
+Any use or redistribution should acknowledge:
+
+- the Greek WordNet project and its contributors;
+- the then General Secretariat for Research and Technology (GSRT), which
+  funded the resource;
+- the Database Laboratory of the University of Patras, the main contractor;
+- the [CLARIN Greece network](https://www.clarin.gr/el), through which the
+  resource was made available; and
+- the relevant project publications listed below.
+
+Related publications:
+
+- <https://cgi.di.uoa.gr/~harryk/papers/RJIST.pdf>
+- <https://www.researchgate.net/publication/221098292_Greek_WordNet_and_Its_Extension_with_Terms_of_the_Computer_Science_Domain>
+- <https://link.springer.com/chapter/10.1007/3-540-45154-4_5>
+
+When adapting the material, indicate that changes were made and distribute the
+adaptation under the same or a compatible license, as required by CC BY-SA 4.0.
 
 See `LICENSE` for the legal text and `CITATION.cff` for citation metadata.

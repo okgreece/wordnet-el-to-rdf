@@ -5,6 +5,10 @@ Copyright (c) Greek WordNet contributors.
 Licensed under the Creative Commons Attribution-ShareAlike 4.0 International license:
 https://creativecommons.org/licenses/by-sa/4.0/
 
-This distribution modernizes an inherited conversion package dated 2013.
-The XML source is unchanged; the conversion implementation and RDF
-serialization have been replaced. See README.md for details.
+The Greek WordNet was funded by the then General Secretariat for Research and
+Technology (GSRT), with the Database Laboratory of the University of Patras as
+the main contractor, and was made available through the CLARIN network.
+
+Any use should acknowledge the Greek WordNet project and contributors, GSRT,
+the Database Laboratory of the University of Patras, and CLARIN Greece, and
+should cite the relevant publications listed in README.md.
